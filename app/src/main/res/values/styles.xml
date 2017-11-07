@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#929090</item>
+        <item name="colorPrimaryDark">#929090</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TransparentTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="ToolBarAndTranslucent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+       <!-- <item name="android:listDivider">@drawable/divider</item>-->
+    </style>
+
+
+
+    <style name="MyCustomTabLayout" parent="Widget.Design.TabLayout">
+    <item name="tabIndicatorColor">?attr/colorAccent</item>
+    <item name="tabIndicatorHeight">0dp</item>
+    <item name="tabPaddingStart">12dp</item>
+    <item name="tabTextColor">#aaa</item>
+    <item name="tabPaddingEnd">12dp</item>
+    <item name="tabSelectedTextColor">#f00</item></style>
+
+    <style name="MyTheme" parent="@android:style/Theme.Black.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+</resources>

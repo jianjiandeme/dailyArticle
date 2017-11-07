@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#4c4c4e"
+    android:id="@+id/notice"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/widget_album"
+        android:layout_width="130dp"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/describe_1" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="100dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:paddingLeft="9dp"
+            android:paddingRight="9dp"
+            android:paddingTop="9dp" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="50dp"
+                android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/widget_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#ffffff"
+                    android:textSize="16sp" />
+        <TextView
+            android:id="@+id/widget_artist"
+            android:layout_width="228dp"
+            android:layout_height="51dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textColor="#A0A0A0"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <ImageView
+                android:id="@+id/widget_close"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_marginEnd="10dp"
+                android:src="@drawable/global_close" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/widget_prev"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:src="@drawable/player_pre"
+                android:contentDescription="@string/describe_2"/>
+
+            <ImageView
+                android:id="@+id/widget_play"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_weight="3"
+                android:contentDescription="@string/describe_3"/>
+
+            <ImageView
+                android:id="@+id/widget_next"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:src="@drawable/player_next"
+                android:contentDescription="@string/describe_4"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:contentDescription="@string/describe_5"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

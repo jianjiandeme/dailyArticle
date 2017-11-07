@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <!--<com.facebook.drawee.view.SimpleDraweeView-->
+        <!--android:id="@+id/book_image_view"-->
+        <!--android:layout_width="110dp"-->
+        <!--android:layout_height="150dp"-->
+        <!--fresco:placeholderImage="@drawable/my_drawable"-->
+        <!--/>-->
+
+    <ImageView
+        android:id="@+id/book_img"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="@string/app_name"/>
+    <TextView
+        android:id="@+id/book_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/book_author"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:textSize="16sp"/>
+
+
+
+</LinearLayout>

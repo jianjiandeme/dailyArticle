@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DailyArticle</string>
+    <string name="startName">播放网络音频</string>
+    <string name="pauseName">暂停</string>
+    <string name="stopName">停止</string>
+
+
+    <string name="describe_1">专辑图片</string>
+    <string name="describe_2">上一首</string>
+    <string name="describe_3">播放/暂停</string>
+    <string name="describe_4">下一首</string>
+    <string name="describe_5">留空</string>
+</resources>
